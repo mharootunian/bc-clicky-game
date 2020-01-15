@@ -1,5 +1,6 @@
 import React from 'react';
-import images from "../config/images";
+import images from "./images";
+import ClickyImage from "./components/ClickyImage";
 
 class App extends React.Component {
     state = {
@@ -12,7 +13,16 @@ class App extends React.Component {
     render() {
         return (
             <div>
+                {this.state.images.map(img => (
+                        <ClickyImage
+                            id={img.id}
+                            src={img.src}
+                            key={img.id}
+                        />
 
+                    )
+                )
+                }
             </div>
         );
     };
