@@ -10,6 +10,27 @@ class App extends React.Component {
         images
     };
 
+    imageClicky = (id) => {
+        if (this.state.imagesClicked.includes(id)) {
+            //lose
+            this.setState({
+                score: 0,
+                imagesClicked: []
+            });
+            alert("clicked");
+        } else {
+            let newImagesClicked = this.state.imagesClicked;
+            newImagesClicked.push(id);
+
+            // this.setState({
+            //     imagesClicked: newImagesClicked
+            // });
+
+            console.log(("New Images Clicked"))
+            console.log(this.state.imagesClicked)
+        }
+    };
+
     render() {
         return (
             <div>
@@ -18,6 +39,7 @@ class App extends React.Component {
                             id={img.id}
                             src={img.src}
                             key={img.id}
+                            imageClick={this.imageClicky}
                         />
 
                     )
