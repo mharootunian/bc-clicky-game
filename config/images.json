@@ -1,14 +1,50 @@
 [
   {
     "id": 1,
-    "src": "",
+    "src": "./images/black-panther.jpg",
   },
   {
     "id": 2,
-    "src": "",
+    "src": "./images/cat.jpg",
   },
   {
     "id": 3,
-    "src": "",
+    "src": "./images/cheetah-cub.jpg",
+  },
+  {
+    "id": 4,
+    "src": "./images/cougar.jpg",
+  },
+  {
+    "id": 5,
+    "src": "./images/jaguar.jpg",
+  },
+  {
+    "id": 6,
+    "src": "./images/kitty.jpg",
+  },
+  {
+    "id": 7,
+    "src": "./images/leopard.jpg",
+  },
+  {
+    "id": 8,
+    "src": "./images/lion.jpg",
+  },
+  {
+    "id": 9,
+    "src": "./images/lynx.jpg",
+  },
+  {
+    "id": 10,
+    "src": "./images/ocelot.jpg",
+  },
+  {
+    "id": 11,
+    "src": "./images/serval.jpg",
+  },
+  {
+    "id": 12,
+    "src": "./images/tiger.jpg",
   }
 ]
