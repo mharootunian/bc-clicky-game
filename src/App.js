@@ -65,7 +65,7 @@ class App extends React.Component {
                 <div>
                     Welcome to Clicky Game!
                     <p>
-                        Click on the images. Everytime you click an image, all the images will shuffle around, waiting
+                        Click on the images. Everytime you click an image all the images will shuffle around, waiting
                         for you to click again. If you click the same image more than once before the round is over, you
                         lose!
                     </p>
