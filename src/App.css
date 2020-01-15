@@ -1,3 +1,12 @@
+.img-container {
+  border: 3px solid black;
+}
+
+.container {
+  align-content: center;
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
