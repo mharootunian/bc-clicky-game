@@ -13,6 +13,7 @@ class App extends React.Component {
     };
 
     shuffleImages(images) {
+        //implement the Durstenfeld Shuffle
         for (let i = images.length - 1; i > 0; i--) { // starting with the last element in the images array
             let x = Math.floor(Math.random() * (i + 1));
             let temp = images[i]; // take the contents of images[i] and store them temporarily
