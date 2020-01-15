@@ -1,4 +1,5 @@
 import React from 'react';
+import "./ClickyImage.css";
 
 const ClickyImage = (props) => {
     return (
